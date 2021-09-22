@@ -1,0 +1,42 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* height: 90vh; */
+  background-color: rgb(248, 196, 147);
+}
+
+#canvas {
+  background-color: rgb(247, 253, 192);
+  margin-top: 50px;
+}
+
+.message {
+  color: black;
+  font-size: 15px;
+  width: 320px;
+  text-align: center;
+}
+
+.buttons_for_mobile {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 70px);
+  grid-template-rows: repeat(2, 70px);
+  margin-top: 100px;
+}
+
+.buttons_for_mobile .arrow {
+  margin-bottom: 18px;
+}
+
+.arrow_button {
+  justify-content: center;
+  align-content: center;
+}
+
+.arrow_img {
+  width: 45px;
+  height: 50px;
+}

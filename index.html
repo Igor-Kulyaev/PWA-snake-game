@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#ec841e" />
+    <link rel="apple-touch-icon" href="./images/icon-192x192.png">
+    <title>Snake game</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="320" height="320"></canvas>
+
+    <div class="message">
+        Для управления используйте стрелки на клавиатуре или следующие кнопки.
+    </div>
+
+    <div class="buttons_for_mobile">
+        <div class="arrow_content">
+            <div class="arrow">
+                <button class="arrow_button left_arrow_button">
+                    <img class="arrow_img left_arrow_img" src="./images/left-arrow-key.svg" alt="left_arrow">
+                </button>
+            </div>
+        </div>
+
+        <div class="arrow_content">
+            <div class="arrow">
+                <button class="arrow_button upper_arrow_button">
+                    <img class="arrow_img upper_arrow_img" src="./images/up-arrow-key.svg" alt="upper_arrow">
+                </button>
+            </div>
+
+            <div class="arrow">
+                <button class="arrow_button down_arrow_button">
+                    <img class="arrow_img down_arrow_img" src="./images/downwards-arrow-key.svg" alt="down_arrow">
+                </button>
+            </div>
+        </div>
+        <div class="arrow_content">
+            <div class="arrow">
+                <button class="arrow_button right_arrow_button">
+                    <img class="arrow_img right_arrow_img" src="./images/keyboard-right-arrow-button.svg"
+                        alt="right_arrow">
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="app.js"></script>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
